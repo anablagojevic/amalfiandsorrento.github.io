@@ -1,3 +1,4 @@
+console.log("First JS code line");
 
 //ajax callBack function
 function ajaxCallBack(filename, result){
@@ -55,7 +56,7 @@ window.onload = function(){
     numberOfProducts();
 
     //functions for page index.html
-    if(url == "/" || url == "/index.html"){
+    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/index.html"){
 
         ajaxCallBack("brands.json", function(result){
             showBrands(result);
@@ -63,7 +64,7 @@ window.onload = function(){
     }
 
     //functions for page shop.html
-    if(url == "/" || url == "/shop.html"){
+    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/shop.html"){
 
         //showing products and setting them to localeStorage
         ajaxCallBack("products.json", function(result){
@@ -140,7 +141,7 @@ window.onload = function(){
     }
 
     //functions for page contact.html
-    if(url == "/" || url == "/contact.html"){
+    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/cart.html"){
 
         //calling the function for showing information
         ajaxCallBack("contact.json", function(result){
