@@ -1,4 +1,3 @@
-console.log("First JS code line");
 
 //ajax callBack function
 function ajaxCallBack(filename, result){
