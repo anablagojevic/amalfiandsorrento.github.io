@@ -45,7 +45,7 @@ var filter = false;
 
 window.onload = function(){
 
-    let url = window.location.pathname;
+    let url = window.location.hostname;
 
     //function for all pages
     ajaxCallBack("menu.json", function(result){
@@ -154,7 +154,7 @@ window.onload = function(){
     }
 
     //functions for page cart.html
-    if(url == "/" || url == "/cart.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io/cart.html"){
 
         //checking if the cart is empty
         let cartProductsLS = getItemFromLocalStorage("cartProducts");
@@ -170,7 +170,7 @@ window.onload = function(){
     }
 
     //functions for page buy.html
-    if(url == "/" || url == "/buy.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io/buy.html"){
 
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
