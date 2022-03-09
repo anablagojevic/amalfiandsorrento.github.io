@@ -45,7 +45,7 @@ var filter = false;
 
 window.onload = function(){
 
-    let url = window.location.hostname;
+    //let url = window.location.hostname;
 
     //function for all pages
     ajaxCallBack("menu.json", function(result){
