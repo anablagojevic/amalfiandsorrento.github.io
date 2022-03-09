@@ -57,7 +57,7 @@ window.onload = function(){
     numberOfProducts();
 
     //functions for page index.html
-    if(url == "/" || url == "/amalfiandsorrento.github.io/index.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io"){
 
         ajaxCallBack("brands.json", function(result){
             showBrands(result);
