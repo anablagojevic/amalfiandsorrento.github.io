@@ -1,0 +1,988 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "assets/img/hermes1.jpg",
+            "alt": "Product 1"
+        },
+        "title": "Crocodile Palladium",
+        "brand": [1],
+        "price": {
+            "activePrice": 240000,
+            "oldPrice": "250000"
+        },
+        "availability": true,
+        "color": [1],
+        "size": 2,
+        "material": [5]
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "assets/img/hermes.png",
+            "alt": "Product 2"
+        },
+        "title": "Black Togo Palladium",
+        "brand": [1],
+        "price": {
+            "activePrice": 24000,
+            "oldPrice": "27000"
+        },
+        "availability": false,
+        "color": [2],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "assets/img/hermes2.jpg",
+            "alt": "Product 3"
+        },
+        "title": "White Clemence",
+        "brand": [1],
+        "price": {
+            "activePrice": 27000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [3],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 4,
+        "image": {
+            "src": "assets/img/hermes3.jpg",
+            "alt": "Product 4"
+        },
+        "title": "Nata Swift",
+        "brand": [1],
+        "price": {
+            "activePrice": 27000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [1],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 5,
+        "image": {
+            "src": "assets/img/hermes4.jpg",
+            "alt": "Product 5"
+        },
+        "title": "Rose Confetti",
+        "brand": [1],
+        "price": {
+            "activePrice": 25000,
+            "oldPrice": "27000"
+        },
+        "availability": false,
+        "color": [4],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 6,
+        "image": {
+            "src": "assets/img/hermes5.jpg",
+            "alt": "Product 6"
+        },
+        "title": "Rouge Casaque",
+        "brand": [1],
+        "price": {
+            "activePrice": 25000,
+            "oldPrice": "27000"
+        },
+        "availability": true,
+        "color": [5],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 7,
+        "image": {
+            "src": "assets/img/hermes6.jpg",
+            "alt": "Product 7"
+        },
+        "title": "Rouge Sellier",
+        "brand": [1],
+        "price": {
+            "activePrice": 35000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [6],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 8,
+        "image": {
+            "src": "assets/img/hermes7.jpg",
+            "alt": "Product 8"
+        },
+        "title": "Lime Epsom",
+        "brand": [1],
+        "price": {
+            "activePrice": 31000,
+            "oldPrice": "38000"
+        },
+        "availability": false,
+        "color": [7],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 9,
+        "image": {
+            "src": "assets/img/hermes8.jpg",
+            "alt": "Product 9"
+        },
+        "title": "Jaune Ambre",
+        "brand": [1],
+        "price": {
+            "activePrice": 38000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [8],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 10,
+        "image": {
+            "src": "assets/img/hermes9.jpg",
+            "alt": "Product 10"
+        },
+        "title": "Menthe Clemence",
+        "brand": [1],
+        "price": {
+            "activePrice": 42000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [9],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 11,
+        "image": {
+            "src": "assets/img/hermes10.jpg",
+            "alt": "Product 11"
+        },
+        "title": "Bleu France",
+        "brand": [1],
+        "price": {
+            "activePrice": 38000,
+            "oldPrice": "40000"
+        },
+        "availability": false,
+        "color": [10],
+        "size": 2,
+        "material": [1]
+    },
+    {
+        "id": 12,
+        "image": {
+            "src": "assets/img/chanel.png",
+            "alt": "Product 12"
+        },
+        "title": "Classic Chanel",
+        "brand": [2],
+        "price": {
+            "activePrice": 8000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [2],
+        "size": 3,
+        "material": [4]
+    },
+    {
+        "id": 13,
+        "image": {
+            "src": "assets/img/classicchanel2.webp",
+            "alt": "Product 13"
+        },
+        "title": "Classic Chanel",
+        "brand": [2],
+        "price": {
+            "activePrice": 6400,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [2],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 14,
+        "image": {
+            "src": "assets/img/bluechanel.webp",
+            "alt": "Product 14"
+        },
+        "title": "Baby blue",
+        "brand": [2],
+        "price": {
+            "activePrice": 5500,
+            "oldPrice": "7500"
+        },
+        "availability": true,
+        "color": [10],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 15,
+        "image": {
+            "src": "assets/img/diamondchanel.webp",
+            "alt": "Product 15"
+        },
+        "title": "Black diamond",
+        "brand": [2],
+        "price": {
+            "activePrice": 10800,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [2],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 16,
+        "image": {
+            "src": "assets/img/yellowchanel.jpg",
+            "alt": "Product 16"
+        },
+        "title": "Mini Yellow",
+        "brand": [2],
+        "price": {
+            "activePrice": 5800,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [7],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 17,
+        "image": {
+            "src": "assets/img/flowerchanel.webp",
+            "alt": "Product 17"
+        },
+        "title": "Black flower",
+        "brand": [2],
+        "price": {
+            "activePrice": 8500,
+            "oldPrice": "9800"
+        },
+        "availability": false,
+        "color": [2],
+        "size": 3,
+        "material": [2]
+    },
+    {
+        "id": 18,
+        "image": {
+            "src": "assets/img/lilachanel.webp",
+            "alt": "Product 18"
+        },
+        "title": "Lilic",
+        "brand": [2],
+        "price": {
+            "activePrice": 6500,
+            "oldPrice": "7300"
+        },
+        "availability": true,
+        "color": [11],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 19,
+        "image": {
+            "src": "assets/img/orangechanel.webp",
+            "alt": "Product 19"
+        },
+        "title": "Orange Tweed",
+        "brand": [2],
+        "price": {
+            "activePrice": 5200,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [8],
+        "size": 3,
+        "material": [2]
+    },
+    {
+        "id": 20,
+        "image": {
+            "src": "assets/img/whiteladydior.jpg",
+            "alt": "Product 20"
+        },
+        "title": "White Lady",
+        "brand": [3],
+        "price": {
+            "activePrice": 6200,
+            "oldPrice": "6500"
+        },
+        "availability": true,
+        "color": [3],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 21,
+        "image": {
+            "src": "assets/img/redladydior.jpg",
+            "alt": "Product 21"
+        },
+        "title": "Red Lady",
+        "brand": [3],
+        "price": {
+            "activePrice": 4250,
+            "oldPrice": "5200"
+        },
+        "availability": false,
+        "color": [5],
+        "size": 4,
+        "material": [6]
+    },
+    {
+        "id": 22,
+        "image": {
+            "src": "assets/img/printdior.jpg",
+            "alt": "Product 22"
+        },
+        "title": "Printed Dior",
+        "brand": [3],
+        "price": {
+            "activePrice": 5900,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [3],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 23,
+        "image": {
+            "src": "assets/img/miniladydior.jpg",
+            "alt": "Product 23"
+        },
+        "title": "Mini Dior",
+        "brand": [3],
+        "price": {
+            "activePrice": 4800,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [1],
+        "size": 5,
+        "material": [6]
+    },
+    {
+        "id": 24,
+        "image": {
+            "src": "assets/img/ladydior.webp",
+            "alt": "Product 24"
+        },
+        "title": "Lady Dior",
+        "brand": [3],
+        "price": {
+            "activePrice": 7100,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [2],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 25,
+        "image": {
+            "src": "assets/img/blueladydior.jpg",
+            "alt": "Product 25"
+        },
+        "title": "Blue LD",
+        "brand": [3],
+        "price": {
+            "activePrice": 5900,
+            "oldPrice": "6200"
+        },
+        "availability": false,
+        "color": [10],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 26,
+        "image": {
+            "src": "assets/img/blackbooktote.jpg",
+            "alt": "Product 26"
+        },
+        "title": "Black booktote",
+        "brand": [3],
+        "price": {
+            "activePrice": 3900,
+            "oldPrice": "4500"
+        },
+        "availability": true,
+        "color": [10],
+        "size": 1,
+        "material": [7]
+    },
+    {
+        "id": 27,
+        "image": {
+            "src": "assets/img/colorfulbooktote.jpg",
+            "alt": "Product 27"
+        },
+        "title": "Colorful booktote",
+        "brand": [3],
+        "price": {
+            "activePrice": 4500,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [4],
+        "size": 1,
+        "material": [7]
+    },
+    {
+        "id": 28,
+        "image": {
+            "src": "assets/img/darkbooktote.jpg",
+            "alt": "Product 28"
+        },
+        "title": "Dark booktote",
+        "brand": [3],
+        "price": {
+            "activePrice": 4500,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [2],
+        "size": 1,
+        "material": [7]
+    },
+    {
+        "id": 29,
+        "image": {
+            "src": "assets/img/whitebooktote.jpg",
+            "alt": "Product 29"
+        },
+        "title": "White booktote",
+        "brand": [3],
+        "price": {
+            "activePrice": 3800,
+            "oldPrice": "4500"
+        },
+        "availability": false,
+        "color": [3],
+        "size": 1,
+        "material": [7]
+    },
+    {
+        "id": 30,
+        "image": {
+            "src": "assets/img/beigefendi.webp",
+            "alt": "Product 30"
+        },
+        "title": "Beige Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 2500,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [1],
+        "size": 3,
+        "material": [2]
+    },
+    {
+        "id": 31,
+        "image": {
+            "src": "assets/img/pinkfendi.jpg",
+            "alt": "Product 31"
+        },
+        "title": "Pink Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 2400,
+            "oldPrice": "3100"
+        },
+        "availability": false,
+        "color": [4],
+        "size": 4,
+        "material": [2]
+    },
+    {
+        "id": 32,
+        "image": {
+            "src": "assets/img/brownfendi.webp",
+            "alt": "Product 32"
+        },
+        "title": "Brown Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 3000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [6],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 33,
+        "image": {
+            "src": "assets/img/fendi.png",
+            "alt": "Product 33"
+        },
+        "title": "Classic Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 1900,
+            "oldPrice": "2700"
+        },
+        "availability": false,
+        "color": [2],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 34,
+        "image": {
+            "src": "assets/img/minifendi.webp",
+            "alt": "Product 34"
+        },
+        "title": "Mini Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 1900,
+            "oldPrice": "2700"
+        },
+        "availability": false,
+        "color": [1],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 35,
+        "image": {
+            "src": "assets/img/pythonfendi.webp",
+            "alt": "Product 35"
+        },
+        "title": "Snake print Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 3900,
+            "oldPrice": "4800"
+        },
+        "availability": true,
+        "color": [6],
+        "size": 3,
+        "material": [6]
+    },
+    {
+        "id": 36,
+        "image": {
+            "src": "assets/img/redfendi.jpg",
+            "alt": "Product 36"
+        },
+        "title": "Red Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 3100,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [5],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 37,
+        "image": {
+            "src": "assets/img/smallfendi1.webp",
+            "alt": "Product 37"
+        },
+        "title": "Small Fendi white",
+        "brand": [4],
+        "price": {
+            "activePrice": 1800,
+            "oldPrice": "2100"
+        },
+        "availability": false,
+        "color": [3],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 38,
+        "image": {
+            "src": "assets/img/smallfendi2.webp",
+            "alt": "Product 38"
+        },
+        "title": "Small Fendi blue",
+        "brand": [4],
+        "price": {
+            "activePrice": 1800,
+            "oldPrice": "2100"
+        },
+        "availability": false,
+        "color": [10],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 39,
+        "image": {
+            "src": "assets/img/whitefendi.webp",
+            "alt": "Product 39"
+        },
+        "title": "White Fendi",
+        "brand": [4],
+        "price": {
+            "activePrice": 2300,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [3],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 40,
+        "image": {
+            "src": "assets/img/bigf1.jpg",
+            "alt": "Product 40"
+        },
+        "title": "Big brown bag",
+        "brand": [4],
+        "price": {
+            "activePrice": 3400,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [6],
+        "size": 1,
+        "material": [1]
+    },
+    {
+        "id": 41,
+        "image": {
+            "src": "assets/img/bigf2.jpg",
+            "alt": "Product 41"
+        },
+        "title": "Big beige bag",
+        "brand": [4],
+        "price": {
+            "activePrice": 3400,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [1],
+        "size": 1,
+        "material": [1]
+    },
+    {
+        "id": 42,
+        "image": {
+            "src": "assets/img/blackvalentino.webp",
+            "alt": "Product 42"
+        },
+        "title": "Black VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 4500,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [2],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 43,
+        "image": {
+            "src": "assets/img/bluevalentino.webp",
+            "alt": "Product 43"
+        },
+        "title": "Blue VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 3500,
+            "oldPrice": "4400"
+        },
+        "availability": true,
+        "color": [10],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 44,
+        "image": {
+            "src": "assets/img/flowervalentino.webp",
+            "alt": "Product 44"
+        },
+        "title": "Flower VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 3800,
+            "oldPrice": "4500"
+        },
+        "availability": false,
+        "color": [2],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 45,
+        "image": {
+            "src": "assets/img/greenvalentino.webp",
+            "alt": "Product 45"
+        },
+        "title": "Green VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 3200,
+            "oldPrice": "4100"
+        },
+        "availability": false,
+        "color": [9],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 46,
+        "image": {
+            "src": "assets/img/indigovalentino.webp",
+            "alt": "Product 46"
+        },
+        "title": "Green VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 4000,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [10],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 47,
+        "image": {
+            "src": "assets/img/pinkvalentino.webp",
+            "alt": "Product 47"
+        },
+        "title": "Pink VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 3000,
+            "oldPrice": "4000"
+        },
+        "availability": true,
+        "color": [4],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 48,
+        "image": {
+            "src": "assets/img/redvalentino.webp",
+            "alt": "Product 48"
+        },
+        "title": "Red VLTN",
+        "brand": [5],
+        "price": {
+            "activePrice": 3000,
+            "oldPrice": "3200"
+        },
+        "availability": false,
+        "color": [5],
+        "size": 4,
+        "material": [1]
+    },
+    {
+        "id": 49,
+        "image": {
+            "src": "assets/img/whitevalentino.webp",
+            "alt": "Product 49"
+        },
+        "title": "White VLTN Gold",
+        "brand": [5],
+        "price": {
+            "activePrice": 3200,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [3],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 50,
+        "image": {
+            "src": "assets/img/whitevalentino2.webp",
+            "alt": "Product 50"
+        },
+        "title": "White VLTN 2",
+        "brand": [5],
+        "price": {
+            "activePrice": 3200,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [3],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 51,
+        "image": {
+            "src": "assets/img/beige&black.jpg",
+            "alt": "Product 51"
+        },
+        "title": "Black KL logo",
+        "brand": [6],
+        "price": {
+            "activePrice": 300,
+            "oldPrice": "355"
+        },
+        "availability": true,
+        "color": [2],
+        "size": 3,
+        "material": [3]
+    },
+    {
+        "id": 52,
+        "image": {
+            "src": "assets/img/blackkarl.jpg",
+            "alt": "Product 52"
+        },
+        "title": "Black KL chain",
+        "brand": [6],
+        "price": {
+            "activePrice": 250,
+            "oldPrice": "300"
+        },
+        "availability": false,
+        "color": [2],
+        "size": 3,
+        "material": [3]
+    },
+    {
+        "id": 53,
+        "image": {
+            "src": "assets/img/karl.jpg",
+            "alt": "Product 53"
+        },
+        "title": "Essential K",
+        "brand": [6],
+        "price": {
+            "activePrice": 195,
+            "oldPrice": "245"
+        },
+        "availability": true,
+        "color": [2],
+        "size": 3,
+        "material": [8]
+    },
+    {
+        "id": 54,
+        "image": {
+            "src": "assets/img/logokarl.jpg",
+            "alt": "Product 54"
+        },
+        "title": "Red logo Karl",
+        "brand": [6],
+        "price": {
+            "activePrice": 185,
+            "oldPrice": "215"
+        },
+        "availability": true,
+        "color": [5],
+        "size": 4,
+        "material": [3]
+    },
+    {
+        "id": 55,
+        "image": {
+            "src": "assets/img/orangekarl.jpg",
+            "alt": "Product 55"
+        },
+        "title": "Essential K",
+        "brand": [6],
+        "price": {
+            "activePrice": 220,
+            "oldPrice": "250"
+        },
+        "availability": false,
+        "color": [8],
+        "size": 3,
+        "material": [8]
+    },
+    {
+        "id": 56,
+        "image": {
+            "src": "assets/img/pinkkarl.jpg",
+            "alt": "Product 56"
+        },
+        "title": "Essential K",
+        "brand": [6],
+        "price": {
+            "activePrice": 295,
+            "oldPrice": ""
+        },
+        "availability": true,
+        "color": [4],
+        "size": 3,
+        "material": [8]
+    },
+    {
+        "id": 57,
+        "image": {
+            "src": "assets/img/redkarl.jpg",
+            "alt": "Product 57"
+        },
+        "title": "Red KL",
+        "brand": [6],
+        "price": {
+            "activePrice": 285,
+            "oldPrice": ""
+        },
+        "availability": false,
+        "color": [5],
+        "size": 3,
+        "material": [1]
+    },
+    {
+        "id": 58,
+        "image": {
+            "src": "assets/img/yellowkarl.jpg",
+            "alt": "Product 58"
+        },
+        "title": "Yellow KL",
+        "brand": [6],
+        "price": {
+            "activePrice": 225,
+            "oldPrice": "280"
+        },
+        "availability": false,
+        "color": [7],
+        "size": 4,
+        "material": [3]
+    }
+]

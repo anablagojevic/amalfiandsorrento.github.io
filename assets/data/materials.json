@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Leather"
+    },
+    {
+        "id": 2,
+        "name": "Tweed"
+    },
+    {
+        "id": 3,
+        "name": "Artificial leather"
+    },
+    {
+        "id": 4,
+        "name": "Caviar leather"
+    },
+    {
+        "id": 5,
+        "name": "Crocodile leather"
+    },
+    {
+        "id": 6,
+        "name": "Patent leather"
+    },
+    {
+        "id": 7,
+        "name": "Cotton Canvas"
+    },
+    {
+        "id": 8,
+        "name": "Plush"
+    }
+]

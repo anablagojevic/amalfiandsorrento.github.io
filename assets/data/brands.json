@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "assets/img/hermes.png",
+            "alt": "hermes"
+        },
+        "name": "Hermès",
+        "description": "One of the most luxurious haute couture brands. Hermes birkin bags are one of the most popular bags in the world and we all love them, but take a look at the rest of its collection in shop."
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "assets/img/chanel.png",
+            "alt": "chanel"
+        },
+        "name": "CHANEL",
+        "description": "Chanel, as one of the most popular and one of the oldest fashion brands, takes care of its reputation and keep its quallity on the highest level. We love Chanel! Come shop with us!"
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "assets/img/dior.png",
+            "alt": "dior"
+        },
+        "name": "Christian Dior",
+        "description": "Christian Dior keeps its elegance as a brand for decades, but still menages to add a little bit of a spice and fit into current trends. Dior is for both lunch with friends and special events."
+    },
+    {
+        "id": 4,
+        "image": {
+            "src": "assets/img/fendi.png",
+            "alt": "fendi"
+        },
+        "name": "Fendi",
+        "description": "If you wanna be both chic and elegant Fendi is a brand for you! They tend to have something for everyone and every occassion. Take a look at our shop to see how creative they can be!"
+    },
+    {
+        "id": 5,
+        "image": {
+            "src": "assets/img/valentino.png",
+            "alt": "valentino"
+        },
+        "name": "Valentino",
+        "description": "Valentino is a classic houte couture brand with elegant and high quallity goods. They don't experiment with pop of colors, because they like to keep it simple, yet sophisticated."
+    },
+    {
+        "id": 6,
+        "image": {
+            "src": "assets/img/karl.png",
+            "alt": "karl"
+        },
+        "name": "Karl Lagerfeld",
+        "description": "Karl Lagerfeld is everyday streetwear brand, but on the next level. Main color of the brand is black, but even if a bag is totally black, they add a small detail in some of bright colors."
+    }
+]

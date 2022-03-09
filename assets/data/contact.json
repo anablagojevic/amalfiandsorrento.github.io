@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "assets/img/icon2.png",
+            "alt": "icon2"
+        },
+        "text": "Piazza Duomo, 39"
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "assets/img/icon3.png",
+            "alt": "icon3"
+        },
+        "text": "Amalfi, Italy"
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "assets/img/icon4.png",
+            "alt": "icon4"
+        },
+        "text": "Working hours: 9am - 9pm"
+    },
+    {
+        "id": 4,
+        "image": {
+            "src": "assets/img/icon5.png",
+            "alt": "icon5"
+        },
+        "text": "+39 089 872062"
+    },
+    {
+        "id": 5,
+        "image": {
+            "src": "assets/img/icon6.png",
+            "alt": "icon6"
+        },
+        "text": "ana.blagojevic.99.20@ict.edu.rs"
+    }
+]
