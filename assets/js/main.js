@@ -45,7 +45,7 @@ var filter = false;
 
 window.onload = function(){
 
-    let url = window.location.hostname;
+    let url = window.location.href;
     console.log(url)
 
     //function for all pages
