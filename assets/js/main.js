@@ -56,7 +56,7 @@ window.onload = function(){
     numberOfProducts();
 
     //functions for page index.html
-    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/index.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io/index.html"){
 
         ajaxCallBack("brands.json", function(result){
             showBrands(result);
@@ -64,7 +64,7 @@ window.onload = function(){
     }
 
     //functions for page shop.html
-    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/shop.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io/shop.html"){
 
         //showing products and setting them to localeStorage
         ajaxCallBack("products.json", function(result){
@@ -141,7 +141,7 @@ window.onload = function(){
     }
 
     //functions for page contact.html
-    if(url == "/" || url == "https://anablagojevic.github.io/amalfiandsorrento.github.io/cart.html"){
+    if(url == "/" || url == "/amalfiandsorrento.github.io/cart.html"){
 
         //calling the function for showing information
         ajaxCallBack("contact.json", function(result){
