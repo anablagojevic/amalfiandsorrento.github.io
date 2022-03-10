@@ -45,7 +45,7 @@ var filter = false;
 
 window.onload = function(){
 
-    let url = window.location.hostname;
+    let url = window.location.pathname;
     console.log(url);
 
     //function for all pages
@@ -155,7 +155,7 @@ window.onload = function(){
     }
 
     //functions for page cart.html
-    //if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/cart.html"){
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/cart.html"){
 
         //checking if the cart is empty
         let cartProductsLS = getItemFromLocalStorage("cartProducts");
@@ -168,14 +168,14 @@ window.onload = function(){
         }
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
-    //}
+    }
 
     //functions for page buy.html
-    //if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
 
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
-    //}
+    }
 }
 //function for showing menu
 function showMenu(menuA){
