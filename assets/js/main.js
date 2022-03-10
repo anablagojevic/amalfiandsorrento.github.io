@@ -140,12 +140,18 @@ window.onload = function(){
             setItemToLocalStorage("colorsArray", result);
         });
     }
+    
+    //functions for page contact.html
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
 
-    //functions for page buy.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
+        //calling the function for showing information
+        ajaxCallBack("contact.json", function(result){
+            showContactInfo(result);
+        });
 
-        //calling the function for checking the form when customer is buying a product
-        document.getElementById("finish").addEventListener("click", formCheckForBuying);
+        //calling the checking form function
+        document.getElementById("send").addEventListener("click", formCheck);
+
     }
 
     //functions for page cart.html
@@ -163,18 +169,12 @@ window.onload = function(){
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
     }
+    
+    //functions for page buy.html
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
 
-    //functions for page contact.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
-
-        //calling the function for showing information
-        ajaxCallBack("contact.json", function(result){
-            showContactInfo(result);
-        });
-
-        //calling the checking form function
-        document.getElementById("send").addEventListener("click", formCheck);
-
+        //calling the function for checking the form when customer is buying a product
+        document.getElementById("finish").addEventListener("click", formCheckForBuying);
     }
 }
 //function for showing menu
