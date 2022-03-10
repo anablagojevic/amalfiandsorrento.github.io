@@ -156,7 +156,14 @@ window.onload = function(){
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
     }
-    
+
+    //functions for page buy.html
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
+
+        //calling the function for checking the form when customer is buying a product
+        document.getElementById("finish").addEventListener("click", formCheckForBuying);
+    }
+
     //functions for page contact.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
 
@@ -168,13 +175,6 @@ window.onload = function(){
         //calling the checking form function
         document.getElementById("send").addEventListener("click", formCheck);
 
-    }
-
-    //functions for page buy.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
-
-        //calling the function for checking the form when customer is buying a product
-        document.getElementById("finish").addEventListener("click", formCheckForBuying);
     }
 }
 //function for showing menu
