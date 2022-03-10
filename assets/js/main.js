@@ -46,6 +46,7 @@ var filter = false;
 window.onload = function(){
 
     let url = window.location.hostname;
+    console.log(url);
 
     //function for all pages
     ajaxCallBack("menu.json", function(result){
@@ -176,7 +177,6 @@ window.onload = function(){
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
     }
 }
-
 //function for showing menu
 function showMenu(menuA){
     let meni = "";
@@ -186,7 +186,6 @@ function showMenu(menuA){
     }
     document.getElementById("menu").innerHTML = meni;
 }
-
 function cartProducts(){
     let html = `<div class="col-12">
                     <h2 class="text-center font-weight-light">
@@ -197,7 +196,6 @@ function cartProducts(){
     document.getElementById("empty").innerHTML = html;
     document.getElementById("totalPrice").innerHTML = "";
 }
-
 //function for adding product in cart
 function addToCart(){
     let id = $(this).data('id');
@@ -259,7 +257,6 @@ function addToCart(){
         setItemToLocalStorage("cartProducts", productsLS);
     }
 }
-
 //function for displaying products added to cart
 function displayProducts(){
     let productsLS = getItemFromLocalStorage("productsArray");
@@ -280,7 +277,6 @@ function displayProducts(){
 
     displayBoughtProducts(boughtProduct);
 }
-
 //function for creating div where bought products are going to be displayed
 function displayBoughtProducts(boughtProducts){
     console.log(boughtProducts);
@@ -322,7 +318,6 @@ function displayBoughtProducts(boughtProducts){
     document.getElementById("empty").innerHTML = html;
     document.getElementById("totalPrice").innerHTML = div;
 }
-
 //function for removing a product from cart
 function removeProduct(id){
     let cartProducts = getItemFromLocalStorage("cartProducts");
@@ -345,7 +340,6 @@ function removeProduct(id){
     }
     numberOfProducts();
 }
-
 function removeAllProducts(){
     localStorage.removeItem("cartProducts");
     let html = `<div class="col-12">
@@ -396,7 +390,6 @@ function showProducts(products){
 
     $('.add-to-cart').click(addToCart);
 }
-
 //function for writing products
 function loadProducts(products){
     return `<div class="col-lg-4 col-md-6 mb-4">
@@ -415,7 +408,6 @@ function loadProducts(products){
                 </div>
             </div>`;
 }
-
 //function for showing brand names on shop.html page
 function showBrandName(id, file){
 
@@ -435,12 +427,10 @@ function showBrandName(id, file){
     }
     return brandName;
 }
-
 //function for setting items in localStorage
 function setItemToLocalStorage(name, data){
     return localStorage.setItem(name, JSON.stringify(data));
 }
-
 //function for getting items from localStorage
 function getItemFromLocalStorage(name){
     return JSON.parse(localStorage.getItem(name));
@@ -458,7 +448,6 @@ function numberOfProducts(){
         document.getElementById("cartNumber").textContent = `0`;
     }
 }
-
 //function for availability of products
 function productAvailability(availability){
     if(availability){
