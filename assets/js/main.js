@@ -163,7 +163,7 @@ window.onload = function(){
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
     }
-
+    console.log("js kod");
     //functions for page contact.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
 
