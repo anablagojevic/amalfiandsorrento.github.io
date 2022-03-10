@@ -141,6 +141,19 @@ window.onload = function(){
         });
     }
 
+    //functions for page contact.html
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
+
+        //calling the function for showing information
+        ajaxCallBack("contact.json", function(result){
+            showContactInfo(result);
+        });
+
+        //calling the checking form function
+        document.getElementById("send").addEventListener("click", formCheck);
+
+    }
+
     //functions for page cart.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/cart.html"){
 
@@ -156,26 +169,12 @@ window.onload = function(){
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
     }
-    console.log("js kod");
 
     //functions for page buy.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
 
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
-    }
-    
-    //functions for page contact.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
-
-        //calling the function for showing information
-        ajaxCallBack("contact.json", function(result){
-            showContactInfo(result);
-        });
-
-        //calling the checking form function
-        document.getElementById("send").addEventListener("click", formCheck);
-
     }
 }
 //function for showing menu
