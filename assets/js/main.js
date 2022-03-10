@@ -57,7 +57,7 @@ window.onload = function(){
     numberOfProducts();
 
     //functions for page index.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/index.html"){
+    if(url == "anablagojevic.github.io" || url == "anablagojevic.github.io/index.html"){
 
         ajaxCallBack("brands.json", function(result){
             showBrands(result);
@@ -65,7 +65,7 @@ window.onload = function(){
     }
 
     //functions for page shop.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/shop.html"){
+    if(url == "anablagojevic.github.io" || url == "anablagojevic.github.io/shop.html"){
 
         //showing products and setting them to localeStorage
         ajaxCallBack("products.json", function(result){
@@ -142,7 +142,7 @@ window.onload = function(){
     }
 
     //functions for page contact.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
+    if(url == "anablagojevic.github.io" || url == "anablagojevic.github.io/contact.html"){
 
         //calling the function for showing information
         ajaxCallBack("contact.json", function(result){
@@ -155,7 +155,7 @@ window.onload = function(){
     }
 
     //functions for page cart.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/cart.html"){
+    if(url == "anablagojevic.github.io" || url == "anablagojevic.github.io/cart.html"){
 
         //checking if the cart is empty
         let cartProductsLS = getItemFromLocalStorage("cartProducts");
@@ -171,7 +171,7 @@ window.onload = function(){
     }
 
     //functions for page buy.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
+    if(url == "anablagojevic.github.io" || url == "anablagojevic.github.io/buy.html"){
 
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
