@@ -156,6 +156,7 @@ window.onload = function(){
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
     }
+    console.log("js kod");
 
     //functions for page buy.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/buy.html"){
@@ -163,7 +164,7 @@ window.onload = function(){
         //calling the function for checking the form when customer is buying a product
         document.getElementById("finish").addEventListener("click", formCheckForBuying);
     }
-    console.log("js kod");
+    
     //functions for page contact.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
 
