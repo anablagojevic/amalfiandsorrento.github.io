@@ -45,7 +45,7 @@ var filter = false;
 
 window.onload = function(){
 
-    let url = window.location.pathname;
+    let url = window.location.hostname;
     console.log(url);
 
     //function for all pages
@@ -141,19 +141,6 @@ window.onload = function(){
         });
     }
 
-    //functions for page contact.html
-    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
-
-        //calling the function for showing information
-        ajaxCallBack("contact.json", function(result){
-            showContactInfo(result);
-        });
-
-        //calling the checking form function
-        document.getElementById("send").addEventListener("click", formCheck);
-
-    }
-
     //functions for page cart.html
     if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/cart.html"){
 
@@ -168,6 +155,19 @@ window.onload = function(){
         }
 
         document.getElementById("remove2").addEventListener("click", removeAllProducts);
+    }
+    
+    //functions for page contact.html
+    if(url == "anablagojevic.github.io" || url == "amalfiandsorrento.github.io/contact.html"){
+
+        //calling the function for showing information
+        ajaxCallBack("contact.json", function(result){
+            showContactInfo(result);
+        });
+
+        //calling the checking form function
+        document.getElementById("send").addEventListener("click", formCheck);
+
     }
 
     //functions for page buy.html
